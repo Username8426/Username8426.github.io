@@ -1,0 +1,26 @@
+.target {
+    margin-left: 844px;
+    margin-top: 340px;   
+}
+.back {
+    background-image: 'map.jpg';
+}
+body {
+    background-color: black;
+    color:white;
+}
+
+.data {
+    border-bottom-style: dotted;
+    margin-left:20px;
+}
+.bullet {
+    /* position: fixed;
+    top: 680;
+    left:880;
+    background-color:aliceblue;
+    border-radius: 5px; */
+
+
+
+}

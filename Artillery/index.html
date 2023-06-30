@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title>Artillery simulator</title>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Artillery Sim</h2>
+        </div>
+        <div class="data">
+            X:<input id="xValue" type="number">
+            Y:<input id="yValue" type="number">
+            <p></p>
+            <button id="but">Print</button>
+            <p id="d">Distance:</p>
+            <p id="hAngle">Horizontal angle:</p>
+            <p id="vAngle">Vertical angle:</p>
+            <p id="estT">Estimated time:</p>
+        </div>
+        <div class="bullet">
+            <!--<p>bullet</p>-->
+        </div>
+        <div id = "targt" class="target">
+            <img src="R.png" style="width:100px;height:70px;">
+            <p id="targ">X: 0 Y: 0</p>
+        </div>
+
+    </div>
+    <!-- end of container -->
+    <script src="artillery.js"></script>
+</body>
